@@ -1,0 +1,77 @@
+body {
+  text-align: center; /*Centra todo lo que se encuentra en el body*/
+}
+
+#header {
+  height: 120px; /*height hace referancia al alto*/
+  width: 100%; /*width hace referncia al ancho*/
+  background: gray; /*color de fondo*/
+  /* border: 1px solid rgb(182, 17, 17); /*define el borde  en general del header  */
+  /* border-bottom: 1px solid rgb(182, 17, 17); /*define el borde  en general del header  */
+  /*border-top: 1px solid rgb(182, 17, 17);*/
+  /*  border-left: 1px solid rgb(182, 17, 17);*/
+  /*border-right: 1px solid rgb(182, 17, 17);*/
+  /*border-top: 1px solid rgb(182, 17, 17);*/
+}
+
+#logo {
+  width: 30%; /*ocupara el porcejae en pantalla referenta al header(100%)*/
+  font-size: 30px; /*Tamaño de la fuente*/
+  float: left; /* float permite al elemente flotar en este ejemplo a la izquierda validar las diferentes opciones*/
+}
+
+#logo img {
+  /*afectaria los elementos que se encuentren dentro del id log de tipo imagen*/
+  display: block;
+  float: left;
+  height: 60px;
+}
+
+.center {
+  width: 75%;
+  margin: 0px auto;
+}
+
+#brand {
+  display: block;
+  margin: 0px; /*margen en 0  de todos los lados*/
+  float: left;
+}
+
+#menu {
+  text-align: left;
+  width: 100%;
+  font-size: 18px;
+}
+
+#menu ul {
+  line-height: 85px;
+  width: 100%;
+}
+
+#menu ul li {
+  list-style: none;
+  height: 40px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #444;
+}
+
+#menu a:hover {
+  text-decoration: none;
+  color: burlywood;
+}
+
+#footer {
+  background: lightblue;
+  width: 100%;
+  height: 70px;
+  line-height: 65px;
+  position: absolute;
+  bottom: 0;
+}
